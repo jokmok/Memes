@@ -2,7 +2,7 @@ body{
   background-color: lightblue;
 }
 
-a href.Link1 {
+.Link1 {
   border-style: outset;
   background-color: green;
   border-radius: 10px;
