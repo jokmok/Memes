@@ -16,12 +16,21 @@
     <script>
       var canvas = document.getElementById('myCanvas');
       var context = canvas.getContext('2d');
-
+      var x = canvas.width / 2;
+           var y = canvas.height / 2;
       context.beginPath();
-      context.rect(300, 100, 600, 800);
+      context.rect(300, 100, 400, 800);
       context.fillStyle = 'yellow';
       context.fill();
 
+
+           context.font = '30pt Calibri';
+           // textAlign aligns text horizontally relative to placement
+           context.textAlign = 'center';
+           // textBaseline aligns text vertically relative to font style
+           context.textBaseline = 'middle';
+           context.fillStyle = 'blue';
+           context.fillText('Hello World!', x, y);
     </script>
   </body>
 </html>
