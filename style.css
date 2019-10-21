@@ -8,6 +8,9 @@ body{
   padding: 0;
   overflow: hidden;
   background-color: red;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 .MenyItem {
