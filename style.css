@@ -2,17 +2,26 @@ body{
   background-color: lightblue;
 }
 
-
-.Länkar {
-  float: left;
+.Meny {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: red;
+}
+
+.MenyItem {
+  float: left;
+}
+
+.MenyLink {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.MenyLink:hover {
+  background-color: black;
 }
