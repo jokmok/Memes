@@ -5,20 +5,20 @@
     <meta charset="utf-8">
     <title>Memes</title>
   </head>
-  <body>
-    <script type="text/javascript">
-    <rectMode(CENTER);></rectMode>
-    
- <rect(200, 200, 50, 50);></rect>
+  <body data-rsssl=1>
+      <canvas id="myCanvas" width="578" height="200"></canvas>
+      <script>
+        var canvas = document.getElementById('myCanvas');
+        var context = canvas.getContext('2d');
 
+        context.beginPath();
+        context.rect(188, 50, 200, 100);
+        context.fillStyle = 'yellow';
+        context.fill();
+        context.lineWidth = 7;
+        context.strokeStyle = 'black';
+        context.stroke();
+      </script>
+    </body>
 
-
-
-
-    </script>
-
-
-
-
-  </body>
 </html>
