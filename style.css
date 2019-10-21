@@ -28,3 +28,7 @@ body{
 .MenyLink:hover {
   background-color: black;
 }
+
+.active{
+  background-color: black;
+}
