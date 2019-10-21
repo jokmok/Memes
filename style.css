@@ -8,9 +8,6 @@ body{
   padding: 0;
   overflow: auto;
   background-color: red;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
 }
 
 .MenyItem {
@@ -29,10 +26,6 @@ body{
   background-color: black;
 }
 
-.active{
-  background-color: black;
-}
-
-.position1 {
-  position: relative;
+.tabell {
+  width: 100%;
 }
