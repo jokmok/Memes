@@ -6,16 +6,20 @@
     <title>Memes</title>
   </head>
   <body>
-    <script type="text/javascript">
-    <rectMode(CENTER);>
- <rect(200, 200, 50, 50);>
+    <canvas id="myCanvas" width="578" height="200"></canvas>
+      <script>
+        var canvas = document.getElementById('myCanvas');
+        var context = canvas.getContext('2d');
 
+        context.beginPath();
+        context.rect(188, 50, 200, 100);
+        context.fillStyle = 'yellow';
+        context.fill();
+        context.lineWidth = 7;
+        context.strokeStyle = 'black';
+        context.stroke();
+      </script>
 
-
-
-
-    </script>
-<br><br><br><br><br><a class="Link1" href="Roliga_klipp.html">Kolla på något kul</a>
 
 
 
