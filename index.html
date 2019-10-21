@@ -1,36 +1,11 @@
-<!DOCTYPE HTML>
-<html>
-<link rel="stylesheet" type="text/css" href="test.css">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
-
-    <style>
-
-      body {
-        margin: 0px;
-        padding: 0px;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="test.css">
+    <meta charset="utf-8">
+    <title></title>
   </head>
-  <body data-rsssl=1>
-    <canvas id="myCanvas" width="1920" height="1080"></canvas>
-    <script>
-      var canvas = document.getElementById('myCanvas');
-      var context = canvas.getContext('2d');
-      var x = canvas.width / 2;
-           var y = canvas.height / 2;
-      context.beginPath();
-      context.rect(300, 100, 50, 50);
-      context.fillStyle = 'yellow';
-      context.fill();
+  <body>
 
-
-           context.font = '30pt Calibri';
-           // textAlign aligns text horizontally relative to placement
-           context.textAlign = 'center';
-           // textBaseline aligns text vertically relative to font style
-           context.textBaseline = 'middle';
-           context.fillStyle = 'blue';
-           context.fillText('Hello World!', x, y);
-    </script>
   </body>
 </html>
