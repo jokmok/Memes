@@ -6,5 +6,5 @@ body{
   border-style: outset;
   background-color: green;
   border-radius: 10px;
-  text-decoration-color: red;
+  style: red;
 }
