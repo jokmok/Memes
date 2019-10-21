@@ -1,11 +1,25 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <p>hej</p>
+    <p>haia</p>
+    <style>
 
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
   </head>
-  <body> 
+  <body data-rsssl=1>
+    <canvas id="myCanvas" width="578" height="200"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
 
+      context.beginPath();
+      context.rect(960, 50, 200, 100);
+      context.fillStyle = 'black';
+      context.fill();
 
   </body>
 </html>
