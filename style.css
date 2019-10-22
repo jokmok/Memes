@@ -8,6 +8,7 @@ body{
   padding: 0;
   overflow: auto;
   background-color: red;
+  max-width: auto;
 }
 
 .MenyItem {
@@ -29,8 +30,10 @@ body{
 .tabell {
   margin-left: auto;
   margin-right: auto;
+  max-width: auto;
+  overflow: auto;
 }
 
 .tabell2 {
-  padding: 30px;
+  padding: 4%;
 }
