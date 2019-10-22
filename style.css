@@ -27,6 +27,6 @@ body{
 }
 
 .tabell {
-
-  width: 111.5%;
+  margin-left: auto;
+  margin-right: auto;
 }
